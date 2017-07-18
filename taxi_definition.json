@@ -1,0 +1,207 @@
+{
+    "fields": [
+        {
+            "name": "id", 
+            "primaryKey": true
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "cab_type", 
+                    "valueDestination": "mapping", 
+                    "valueMap": {
+                        "Green": 2, 
+                        "Uber": 3, 
+                        "Yellow": 1
+                    }
+                }
+            ], 
+            "name": "cab_type"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "dist_miles", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "dist_miles"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "drop_day", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "drop_day"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "drop_grid_id", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "drop_grid_id"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "drop_month", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "drop_month"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "drop_time", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "drop_time"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "drop_year", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "drop_year"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "duration_minutes", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "duration_minutes"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "passenger_count", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "passenger_count"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "pickup_day", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "pickup_day"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "pickup_grid_id", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "pickup_grid_id"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "pickup_month", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "pickup_month"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "pickup_time", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "pickup_time"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "pickup_year", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "pickup_year"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "speed_mph", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "speed_mph"
+        }, 
+        {
+            "actions": [
+                {
+                    "frame": "total_amount_dollars", 
+                    "valueDestination": "value-to-row"
+                }
+            ], 
+            "name": "total_amount_dollars"
+        }
+    ], 
+    "frames": [
+        {
+            "name": "cab_type"
+        }, 
+        {
+            "name": "dist_miles"
+        }, 
+        {
+            "name": "drop_day"
+        }, 
+        {
+            "name": "drop_grid_id"
+        }, 
+        {
+            "name": "drop_month"
+        }, 
+        {
+            "name": "drop_time"
+        }, 
+        {
+            "name": "drop_year"
+        }, 
+        {
+            "name": "duration_minutes"
+        }, 
+        {
+            "name": "passenger_count"
+        }, 
+        {
+            "name": "pickup_day"
+        }, 
+        {
+            "name": "pickup_grid_id"
+        }, 
+        {
+            "name": "pickup_month"
+        }, 
+        {
+            "name": "pickup_time"
+        }, 
+        {
+            "name": "pickup_year"
+        }, 
+        {
+            "name": "speed_mph"
+        }, 
+        {
+            "name": "total_amount_dollars"
+        }
+    ]
+}
